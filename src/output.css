@@ -171,12 +171,6 @@
   .flex {
     display: flex;
   }
-  .hidden {
-    display: none;
-  }
-  .table {
-    display: table;
-  }
   .h-\[50px\] {
     height: 50px;
   }
@@ -185,9 +179,6 @@
   }
   .h-\[586px\] {
     height: 586px;
-  }
-  .w-100 {
-    width: calc(var(--spacing) * 100);
   }
   .w-\[250px\] {
     width: 250px;
@@ -201,30 +192,17 @@
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
   .items-center {
     align-items: center;
   }
   .justify-between {
     justify-content: space-between;
   }
-  .justify-center {
-    justify-content: center;
-  }
   .gap-\[10px\] {
     gap: 10px;
   }
   .rounded-\[8px\] {
     border-radius: 8px;
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .bg-\[\#08090A\] {
     background-color: #08090A;
@@ -289,13 +267,6 @@
   .uppercase {
     text-transform: uppercase;
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .max-mb\:m-auto {
     @media (width < 510px) {
       margin: auto;
@@ -306,49 +277,9 @@
       display: none;
     }
   }
-  .max-mb\:h-\[1px\] {
-    @media (width < 510px) {
-      height: 1px;
-    }
-  }
-  .max-mb\:h-\[192px\] {
-    @media (width < 510px) {
-      height: 192px;
-    }
-  }
-  .max-mb\:h-\[300px\] {
-    @media (width < 510px) {
-      height: 300px;
-    }
-  }
-  .max-mb\:h-\[300pxpx\] {
-    @media (width < 510px) {
-      height: 300pxpx;
-    }
-  }
   .max-mb\:h-\[350px\] {
     @media (width < 510px) {
       height: 350px;
-    }
-  }
-  .max-mb\:h-\[586px\] {
-    @media (width < 510px) {
-      height: 586px;
-    }
-  }
-  .max-mb\:h-\[px\] {
-    @media (width < 510px) {
-      height: px;
-    }
-  }
-  .max-mb\:w-\[80\%\] {
-    @media (width < 510px) {
-      width: 80%;
-    }
-  }
-  .max-mb\:w-\[90\%\] {
-    @media (width < 510px) {
-      width: 90%;
     }
   }
   .max-mb\:w-\[95\%\] {
@@ -356,44 +287,14 @@
       width: 95%;
     }
   }
-  .max-mb\:w-\[288px\] {
-    @media (width < 510px) {
-      width: 288px;
-    }
-  }
-  .max-mb\:w-\[956\%\] {
-    @media (width < 510px) {
-      width: 956%;
-    }
-  }
-  .max-mb\:w-\[px\] {
-    @media (width < 510px) {
-      width: px;
-    }
-  }
-  .max-mb\:w-full {
-    @media (width < 510px) {
-      width: 100%;
-    }
-  }
   .max-mb\:bg-cover {
     @media (width < 510px) {
       background-size: cover;
     }
   }
-  .max-mb\:pt-\[0px\] {
-    @media (width < 510px) {
-      padding-top: 0px;
-    }
-  }
   .max-mb\:pt-\[15px\] {
     @media (width < 510px) {
       padding-top: 15px;
-    }
-  }
-  .max-mb\:pt-\[150px\] {
-    @media (width < 510px) {
-      padding-top: 150px;
     }
   }
   .max-mb\:pl-\[15px\] {
@@ -410,26 +311,14 @@
 * {
   font-family: sans-serif;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
-      --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
     }
   }
 }
